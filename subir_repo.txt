@@ -1,0 +1,18 @@
+***Pasos***
+1. Iniciar git -> git init
+2. Validar estado del stage -> git status
+3. Agregar al stage -> git add .
+4. Subir cambio -> git commit -m "Primer commit"
+4.1 (Opcional) si solicita configurar:
+    a) -> git config --global user.name "nombre usuario de github"
+    b) -> git config --global user.email "correo usuario de github"
+    c) Subir cambio -> git commit -m "Primer commit"
+5. Ir a github en icono de perfil buscar repositorys
+5.1 Crear un repositorio, definir nombre, descripcion, privacidad
+5.2 Confirmar la creación del repositorio en btn Create repository
+5.3 Copiar url SSH 
+6 Ejecutar git branch -M main 
+6.1 Ejecutar en terminal -> git remote add origin pegar url SSH
+6.2 Validar con git remote -v
+7. Ejecutar git push -u origin main
+8. (Opcional) cambiar nombre de la rama principal  git config --global init.defaultBranch <name>

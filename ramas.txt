@@ -1,0 +1,5 @@
+***Comandos***
+1. Ver historia de las ramas en terminal -> gitk
+2. Ver ramas -> git branch
+3. Moverse entre ramas -> git checkout nombre_rama
+4. Ver historico -> git log 

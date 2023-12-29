@@ -1,0 +1,15 @@
+***Pasos***
+1. Ejecutar en terminal linux -> ssh-keygen -t ed25519 -C correo_personal 
+1.1 Ingresar con Enter
+1.2 Ingresar frase contraseña
+2. Inicializar agente ssh -> eval "$(ssh-agent -s)"
+3. Agregando la ruta de la llave ssh -> ssh-add ~/.ssh/id_ed25519
+3.1 Ingresar frase contraseña
+4. Obtener llave publica -> cat ~/.ssh/id_ed25519.pub
+4.1 Copiar la llave obtenida
+4.2 Ir a github en icono de perfil buscar settings
+4.3 Buscar apartado Acceso
+4.4 Ingresar a SSH and GPG keys
+4.5 Agregar SSH keys
+4.6 Poner nombre descriptivo
+4.7 Pegar llave publica en campo Key   
